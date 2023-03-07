@@ -14,6 +14,8 @@ bullingBtn.onclick = () => {
     bullingArea.innerHTML += `${name}'re stupid bitches. </br>`.toUpperCase();
   } else if (name === 'Roma and Andrii') {
     bullingArea.innerHTML += `${name}'re stupid bitches. </br>`.toUpperCase();
+  } else if (name.match(/.*(drey|дрюха|drii|дрей|дрюша).*/gi)) {
+    bullingArea.innerHTML += `${name}'s a good boy. </br>`.toUpperCase();
   } else {
     bullingArea.innerHTML += `${name}'s stupid bitch. </br>`.toUpperCase();
   }
