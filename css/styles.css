@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-wrapper {
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper,
+.bulling-btn {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  color: #fff;
+}
+
+.bulling-btn {
+  border: 2px solid gold;
+  background: none;
+  padding: 1em 1.5em;
+  border-radius: 15px;
+}
+
+.bulling-area {
+  line-height: 30px;
+}
