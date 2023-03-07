@@ -5,8 +5,6 @@ let name = prompt('Enter Name of person to bull');
 const bullingBtn = document.querySelector('button');
 const bullingArea = document.querySelector('p');
 
-function validateName(name) {}
-
 bullingBtn.onclick = () => {
   if (name.match(/.*(ler|лер).*/gi)) {
     bullingArea.innerHTML += `I love ${name} </br>`.toUpperCase();
